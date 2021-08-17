@@ -16,3 +16,38 @@ p.intro {
   margin-right: auto;
   width: 900px;
 }
+
+.nav-list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.nav-list-item {
+  float: left;
+  background-color: red;
+  border-radius: 15%;
+}
+
+.nav-link {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-list-item:hover {
+  background-color: black;
+  border-radius: 25%;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.nav-container {
+  background: red;
+  height: 46px;
+}

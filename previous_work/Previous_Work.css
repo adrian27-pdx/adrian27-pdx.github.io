@@ -6,6 +6,10 @@ h1.title {
   font-weight: bolder;
 }
 
+img.resume_pic {
+  border: 5px solid black;
+}
+
 .nav-list {
   list-style-type: none;
   margin: 0;
@@ -42,18 +46,18 @@ h1.title {
 }
 
 .grid-container-1 :nth-child(1) {
-  grid-area: Picture;
+  grid-area: Resume_pic;
 }
 
 .grid-container-1 :nth-child(2) {
-  grid-area: Intro;
+  grid-area: Expereince_txt;
 }
 
 .grid-container-1 {
   display: grid;
   gap: 10px;
   grid-template-columns: 1fr 1fr;
-  grid-template-areas: 'Picture Intro';
+  grid-template-areas: 'Resume_pic Expereince_txt';
 }
 
 @media (min-width: 500px) {
@@ -63,26 +67,26 @@ h1.title {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr;
     grid-template-areas:
-      'Picture'
-      'Intro';
+      'Resume_pic'
+      'Expereince_txt';
   }
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 1200px) {
   .grid-container-1 {
     display: grid;
     gap: 10px;
     grid-template-columns: 1fr 1fr;
-    grid-template-areas: 'Picture Intro';
+    grid-template-areas: 'Resume_pic Expereince_txt';
   }
   .grid-container-1 :nth-child(1) {
-    grid-area: Picture;
+    grid-area: Resume_pic;
     text-align: right;
   }
 
   .grid-container-1 :nth-child(2) {
-    grid-area: Intro;
-    width: 700px;
+    grid-area: Expereince_txt;
+    width: 600px;
     text-align: left;
   }
 }

@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact Form Webpage</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Contact.css" />
     <!--This links the html file with the right css file.-->
@@ -10,27 +11,91 @@
   <body>
     <main>
       <div>
-        <h1 class="title">Contact Form</h1>
         <!--This is the header for my personal website.-->
+        <h1 class="title">Contact Form</h1>
       </div>
       <div class="nav-container">
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/home_page/Home.html">Home</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/home_page/Home.html"
+              >Home</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/about_me/About_Me.html">About Me</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/about_me/About_Me.html"
+              >About Me</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/previous_work/Previous_Work.html">Previous Work</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/previous_work/Previous_Work.html"
+              >Previous Work</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/proj/Proj.html">Projects</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/proj/Proj.html"
+              >Projects</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/contact/Contact.html">Contact</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/contact/Contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
+      </div>
+      <div>
+        <p>
+          If you would like to contact me to talk about the work I have done or
+          to get advice on a project you are working on complete the form below.
+        </p>
+      </div>
+      <div class="form-cont">
+        <form action="" class="form">
+          <div class="form_h">
+            <h1>Contact Form</h1>
+          </div>
+          <div>
+            <label class="form-ele" for="name">Name:</label>
+            <input class="form-in" type="text" name="name" id="name" />
+          </div>
+          <br />
+          <div>
+            <label class="form-ele" for="email">Email:</label>
+            <input class="form-in" type="email" name="email" id="email" />
+          </div>
+          <br />
+          <div>
+            <label class="form-ele" for="phone_num">Phone Number:</label>
+            <input class="form-in" type="tel" name="phone_num" id="phone_num" />
+          </div>
+          <br />
+          <div>
+            <label class="form-ele" for="message">Message:</label>
+            <input
+              type="text"
+              name="message"
+              id="message"
+              class="message-box"
+            />
+          </div>
+          <br />
+          <br />
+          <div class="btn-cont">
+            <input class="btn-sub" type="submit" name="submit" value="Submit" />
+            <input class="btn-reset" type="reset" name="reset" value="Reset" />
+          </div>
+        </form>
+      </div>
     </main>
   </body>
 </html>

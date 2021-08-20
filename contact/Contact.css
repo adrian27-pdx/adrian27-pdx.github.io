@@ -40,3 +40,53 @@ h1.title {
   background: red;
   height: 46px;
 }
+
+.form-cont {
+  width: 500px;
+  height: 450px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  border: 5px solid black;
+  text-align: left;
+}
+
+.message-box {
+  height: 150px;
+  width: 250px;
+}
+
+.form-ele {
+  padding-left: 20px;
+  float: left;
+  width: 30%;
+}
+
+.form-in {
+  width: 175px;
+}
+
+.form_h {
+  text-align: center;
+}
+
+.btn-cont {
+  text-align: center;
+}
+
+.btn-sub {
+  background-color: red;
+  color: white;
+  width: 45%;
+  height: 50px;
+  position: relative;
+  border: 3px solid black;
+}
+
+.btn-reset {
+  background-color: red;
+  width: 45%;
+  height: 50px;
+  color: white;
+  border: 3px solid black;
+}

@@ -83,6 +83,7 @@ img.dog_pic {
   .grid-container-1 :nth-child(1) {
     grid-area: Picture;
     text-align: right;
+    padding-right: 25px;
   }
 
   .grid-container-1 :nth-child(2) {

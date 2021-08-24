@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="Proj.css" />
+    <title>Projects Page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    />
     <!--This links the html file with the right css file.-->
   </head>
   <body>
@@ -16,21 +21,112 @@
       <div class="nav-container">
         <ul class="nav-list">
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/home_page/Home.html">Home</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/home_page/Home.html"
+              >Home</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/about_me/About_Me.html">About Me</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/about_me/About_Me.html"
+              >About Me</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/previous_work/Previous_Work.html">Previous Work</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/previous_work/Previous_Work.html"
+              >Previous Work</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/proj/Proj.html">Projects</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/proj/Proj.html"
+              >Projects</a
+            >
           </li>
           <li class="nav-list-item">
-            <a class="nav-link" href="https://adrian27-pdx.github.io/contact/Contact.html">Contact</a>
+            <a
+              class="nav-link"
+              href="https://adrian27-pdx.github.io/contact/Contact.html"
+              >Contact</a
+            >
           </li>
         </ul>
+      </div>
+      <br />
+      <br />
+      <div class="bootstrap-grid bootstrap-grid-1">
+        <div class="row1">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <h5>Project 1: Modernized xv6 Operating System</h5>
+              <img src="../pictures/OS.png" alt="Picture of the letter's OS" />
+              <p>
+                For this project I worked on modernizing an old operating system
+                that is call xv6. I made this operating system more modern by
+                adding functionality like priority for which programs should run
+                on the CPU and adding a time out so that the program that is
+                currently running can’t just hog the CPU until it is done
+                running and is forced to share it. This project was made using
+                mainly C to implement this functionality. However, I also used
+                some Assembly to complete some of the work as well.
+              </p>
+              <a href="https://github.com/adrian27-pdx/Opereating-Systems"
+                >Code for the modernized OS</a
+              >
+              <br />
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <h5>Project 2: Small Video Game</h5>
+              <img
+                src="../pictures/Knight.jpeg"
+                alt="Drawing of a knight in armor"
+              />
+              <p>
+                This project is a small video game that I made that lets you
+                play as a few different types of characters including a Knight,
+                Mage, or Ogre. This project was written in C++ and was made
+                using a lot of Object-Oriented Programming to keep the amount of
+                redundant code from being written so that the same code does not
+                appear repeatedly. Having the code structured this way allows
+                for better efficiency and for the files to be smaller as there
+                is not as much of the same code over and over again. This game
+                also has events that can be trigged at random to add excitement
+                to the game.
+              </p>
+              <a href="https://github.com/adrian27-pdx/Basic_Game"
+                >Code for my video game</a
+              >
+            </div>
+            <div class="col-sm-12 col-md-12 col-lg-4">
+              <h5>Project 3: Hashtable Data Structures</h5>
+              <img
+                src="../pictures/Hash_table.png"
+                alt="Picture of a Hash table"
+              />
+              <p>
+                For this I decided to write my own implementation of a hash
+                table, I made this project using C++. The hash table was
+                interesting to me as it provides both instant access to data but
+                can also allow for multiple items in a single index of the hash
+                table since I used chaining for when there is a collision on the
+                the hash table. I build this hash table with the intent to store
+                data about movies and T.V. shows and if there was two or more
+                with the same hash key to store them in the same index of the
+                hash table but add them to a linked list do avoid losing any
+                data.
+              </p>
+              <a href="https://github.com/adrian27-pdx/Hashtable"
+                >Code for my Hashtable implimentation</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
   </body>
 </html>

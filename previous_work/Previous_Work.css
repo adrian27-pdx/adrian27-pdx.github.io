@@ -1,15 +1,14 @@
+/* This centers everything inside the body.*/
 body {
   text-align: center;
 }
 
+/* This makes the header bold. */
 h1.title {
   font-weight: bolder;
 }
 
-img.resume_pic {
-  border: 5px solid black;
-}
-
+/* This makes the navagation bar go horozontally accross the top of the page. */
 .nav-list {
   list-style-type: none;
   margin: 0;
@@ -17,12 +16,14 @@ img.resume_pic {
   display: inline-block;
 }
 
+/* This styles the navagaition bar. */
 .nav-list-item {
   float: left;
   background-color: red;
   border-radius: 15%;
 }
 
+/* This styels the text of the link. */
 .nav-link {
   display: block;
   color: white;
@@ -31,28 +32,39 @@ img.resume_pic {
   text-decoration: none;
 }
 
+/* This changes the color of the background change. */
 .nav-list-item:hover {
   background-color: black;
   border-radius: 25%;
 }
 
+/* This makes the text change color when you hover over them. */
 .nav-link:hover {
   color: white;
 }
 
+/* This mades the width of the web page red. */
 .nav-container {
   background: red;
   height: 46px;
 }
 
+/* This adds a border to my remuse. */
+img.resume_pic {
+  border: 5px solid black;
+}
+
+/* This defines the grid area for the first grid item. */
 .grid-container-1 :nth-child(1) {
   grid-area: Resume_pic;
 }
 
+/* This defines the grid area for the second grid item. */
 .grid-container-1 :nth-child(2) {
   grid-area: Expereince_txt;
 }
 
+/* Defualt grid container */
 .grid-container-1 {
   display: grid;
   gap: 10px;
@@ -60,6 +72,7 @@ img.resume_pic {
   grid-template-areas: 'Resume_pic Expereince_txt';
 }
 
+/* Grid container for a specific width */
 @media (min-width: 500px) {
   .grid-container-1 {
     display: grid;
@@ -72,6 +85,7 @@ img.resume_pic {
   }
 }
 
+/* Grid container for a specific width */
 @media (min-width: 1200px) {
   .grid-container-1 {
     display: grid;

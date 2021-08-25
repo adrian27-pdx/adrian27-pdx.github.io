@@ -1,11 +1,14 @@
+/* This centers everything inside the body.*/
 body {
   text-align: center;
 }
 
+/* This makes the header bold. */
 h1.title {
   font-weight: bolder;
 }
 
+/* This makes the navagation bar go horozontally accross the top of the page. */
 .nav-list {
   list-style-type: none;
   margin: 0;
@@ -13,12 +16,14 @@ h1.title {
   display: inline-block;
 }
 
+/* This styles the navagaition bar. */
 .nav-list-item {
   float: left;
   background-color: red;
   border-radius: 15%;
 }
 
+/* This styels the text of the link. */
 .nav-link {
   display: block;
   color: white;
@@ -27,15 +32,18 @@ h1.title {
   text-decoration: none;
 }
 
+/* This changes the color of the background change. */
 .nav-list-item:hover {
   background-color: black;
   border-radius: 25%;
 }
 
+/* This makes the text change color when you hover over them. */
 .nav-link:hover {
   color: white;
 }
 
+/* This mades the width of the web page red. */
 .nav-container {
   background: red;
   height: 46px;

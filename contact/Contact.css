@@ -1,11 +1,14 @@
+/* This centers everything inside the body.*/
 body {
   text-align: center;
 }
 
+/* This makes the header bold. */
 h1.title {
   font-weight: bolder;
 }
 
+/* This makes the navagation bar go horozontally accross the top of the page. */
 .nav-list {
   list-style-type: none;
   margin: 0;
@@ -13,12 +16,14 @@ h1.title {
   display: inline-block;
 }
 
+/* This styles the navagaition bar. */
 .nav-list-item {
   float: left;
   background-color: red;
   border-radius: 15%;
 }
 
+/* This styels the text of the link. */
 .nav-link {
   display: block;
   color: white;
@@ -27,20 +32,24 @@ h1.title {
   text-decoration: none;
 }
 
+/* This changes the color of the background change. */
 .nav-list-item:hover {
   background-color: black;
   border-radius: 25%;
 }
 
+/* This makes the text change color when you hover over them. */
 .nav-link:hover {
   color: white;
 }
 
+/* This mades the width of the web page red. */
 .nav-container {
   background: red;
   height: 46px;
 }
 
+/* This formats the container of the form. */
 .form-cont {
   width: 500px;
   height: 450px;
@@ -51,29 +60,34 @@ h1.title {
   text-align: left;
 }
 
+/* This sets the dimentions of the message text box. */
 .message-box {
   height: 150px;
   width: 250px;
 }
 
+/* This is to set the position of the form elements. */
 .form-ele {
   padding-left: 20px;
   float: left;
   width: 30%;
 }
 
+/* This sets the width of the inputs for the form. */
 .form-in {
   width: 175px;
 }
-
+/* This formats the header of the form. */
 .form_h {
   text-align: center;
 }
 
+/* This alligns the buttons of the form. */
 .btn-cont {
   text-align: center;
 }
 
+/* This formats the submit button. */
 .btn-sub {
   background-color: red;
   color: white;
@@ -83,6 +97,7 @@ h1.title {
   border: 3px solid black;
 }
 
+/* This formats the reset butten of the form. */
 .btn-reset {
   background-color: red;
   width: 45%;

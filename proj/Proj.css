@@ -1,11 +1,14 @@
+/* This centers everything inside the body.*/
 body {
   text-align: center;
 }
 
+/* This makes the header bold. */
 h1.title {
   font-weight: bolder;
 }
 
+/* This makes the navagation bar go horozontally accross the top of the page. */
 .nav-list {
   list-style-type: none !important;
   margin: 0 !important;
@@ -13,12 +16,14 @@ h1.title {
   display: inline-block !important;
 }
 
+/* This styles the navagaition bar. */
 .nav-list-item {
   float: left;
   background-color: red !important;
   border-radius: 15% !important;
 }
 
+/* This styels the text of the link. */
 .nav-link {
   display: block !important;
   color: white !important;
@@ -27,27 +32,32 @@ h1.title {
   text-decoration: none !important;
 }
 
+/* This changes the color of the background change. */
 .nav-list-item:hover {
   background-color: black !important;
   border-radius: 25% !important;
 }
 
+/* This makes the text change color when you hover over them. */
 .nav-link:hover {
   color: white !important;
 }
 
+/* This mades the width of the web page red. */
 .nav-container {
   background: red !important;
   height: 52px !important;
 }
 
+/* Sets the hight and width for imgs */
 img {
   height: 300px;
   width: 300px;
 }
 
+/* Styes the bootstrap grid */
 .bootstrap-grid-1 .row > * {
-  height: 65o0px;
+  height: 650px;
   width: 500px;
   border: 1px solid black;
   padding: 10px;
